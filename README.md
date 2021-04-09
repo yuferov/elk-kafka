@@ -14,6 +14,7 @@ My dashboard:
 
 To convert log messages to JSON I used default Node Pipeline (I tuned it up a little - to parse messages that contain "Started" and "Starting" words to visualize number of restarted services).
 My additional grok pattern:
+
 %{SYSLOGTIMESTAMP:system.syslog.timestamp} %{SYSLOGHOST:host.hostname} %{DATA:process.name} %{WORD:system.status} %{WORD:system.service} %{GREEDYMULTILINE:system.syslog.message}
 
 The upper left Lens contains the list of services that has been launched numerous times (filters: system.status: Started; process.name: exists).
