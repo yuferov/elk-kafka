@@ -74,15 +74,6 @@ services:
         aliases:
           - kafka
   
-  kafkacat:
-    image: confluentinc/cp-kafkacat
-    container_name: kafkacat
-    networks:
-      elk-kafka:
-        aliases:
-          - kafkacat
-    command: sleep infinity 
-
 networks:
   elk-kafka:
     driver: bridge
