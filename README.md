@@ -1,4 +1,4 @@
-This is a stydy project where I set up ELK (Filebeat, Elasticsearch, Kibana) with Kafka broker to analyze system logs from remote server with filebeat.
+This is a stydy project where I set up ELK (Filebeat, Elasticsearch, Kibana) with Kafka broker (plus Zookeep) to analyze system logs from remote server with filebeat.
 
 It contains:
 
