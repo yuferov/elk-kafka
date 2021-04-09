@@ -9,3 +9,5 @@ It contains:
 I didn't add the SSL connection yet, try to figure it out in different branch.
 
 
+My dashboard:
+![dash](https://user-images.githubusercontent.com/78160022/114172296-24d6a180-993e-11eb-8aa5-36820db986db.png)
