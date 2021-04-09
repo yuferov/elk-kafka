@@ -1,0 +1,9 @@
+filebeat.modules:
+- module: system
+
+output.kafka:
+  enabled: true
+  hosts: ["192.168.56.21:9092"]
+  codec.format:
+    string: '%{[message]}'
+  topic: 'log'
