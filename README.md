@@ -6,7 +6,7 @@ It contains:
 - filebeat config file - to configure kafka server IP [you need to change the server IP to correctly configure connection].
 - .env file with variables for docker-compose [which is unnecessary, but I thought it is useful to have all variables in one place].
 
-I didn't add the SSL connection yet, try to figure it out in different branch.
+I didn't add the SSL connection yet, I will try to figure it out in different branch.
 
 
 My dashboard:
